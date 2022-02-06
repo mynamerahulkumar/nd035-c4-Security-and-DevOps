@@ -8,6 +8,7 @@ public class CreateUserRequest {
 	private String username;
 
 	public String getUsername() {
+		System.out.println("hello username");
 		return username;
 	}
 
